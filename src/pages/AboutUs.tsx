@@ -3,28 +3,28 @@ import TeamMemberCard from "../components/TeamMemberCard";
 
 const teamMembers = [
   {
-    name: "Dr. Sarah Chen",
-    role: "Lead Data Scientist",
+    name: "Aashish S Kamath",
+    role: "Frontend Developer",
     image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b",
     bio: "Expert in machine learning and air quality analysis with over 10 years of experience.",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
+    github: "https://github.com/Aashish-kamath",
+    linkedin: "https://www.linkedin.com/in/aashish-s-kamath-b1485b299/",
   },
   {
-    name: "Michael Rodriguez",
-    role: "Senior ML Engineer",
+    name: "Surya K P",
+    role: "ML Engineer",
     image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
     bio: "Specializes in developing scalable ML infrastructure and real-time analytics systems.",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
+    github: "https://github.com/SuryaKPog",
+    linkedin: "https://www.linkedin.com/in/surya-kp/",
   },
   {
-    name: "Emily Thompson",
-    role: "Environmental Scientist",
-    image: "https://images.unsplash.com/photo-1426604966848-d7adac402bff",
-    bio: "Research focused on urban air quality patterns and environmental impact assessment.",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
+    name: "Anamika Saroha",
+    role: "ML Engineer + Frontend Developer",
+    image: "/anamika_photo.jpeg",
+    bio: "Bridging AI and UI — delivering scalable ML systems with intuitive, modern frontends.",
+    github: "https://github.com/sarohaanamika",
+    linkedin: "https://www.linkedin.com/in/anamika-saroha-a8a7b126b/",
   },
 ];
 
@@ -34,9 +34,9 @@ const AboutUs = () => {
       <div className="max-w-7xl mx-auto">
         <h1 className="text-4xl font-bold text-gray-900 mb-8">Our Team</h1>
         <p className="text-xl text-gray-600 mb-12 max-w-3xl">
-          We are a dedicated team of data scientists, engineers, and environmental 
-          experts working together to improve air quality monitoring through 
-          innovative AI solutions.
+        We are a dedicated team of data scientists, engineers, and 
+        frontend developers working together to improve air quality 
+        monitoring through innovative AI solutions.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {teamMembers.map((member) => (
