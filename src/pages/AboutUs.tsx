@@ -5,7 +5,7 @@ const teamMembers = [
   {
     name: "Aashish S Kamath",
     role: "Frontend Developer",
-    image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b",
+    image: "/aashish_photo.jpg",
     bio: "Expert in machine learning and air quality analysis with over 10 years of experience.",
     github: "https://github.com/Aashish-kamath",
     linkedin: "https://www.linkedin.com/in/aashish-s-kamath-b1485b299/",
@@ -13,7 +13,7 @@ const teamMembers = [
   {
     name: "Surya K P",
     role: "ML Engineer",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+    image: "/surya_photo.jpg",
     bio: "Specializes in developing scalable ML infrastructure and real-time analytics systems.",
     github: "https://github.com/SuryaKPog",
     linkedin: "https://www.linkedin.com/in/surya-kp/",
